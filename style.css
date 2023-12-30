@@ -87,9 +87,7 @@ form {
     color: black;
 }
 
-/* for phones */
-
-@media (max-width: 577px) { 
+@media (max-width: 419px) { 
     .login-form {
         margin-top: 30%;
         margin-right: 10px;
@@ -98,5 +96,17 @@ form {
 
     .bottom-container {
         top: 57%;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 577px){ 
+    .login-form {
+        margin-top: 30%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .bottom-container {
+        top: 60%;
     }
 }
