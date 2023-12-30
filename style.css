@@ -89,7 +89,7 @@ form {
 
 /* for phones */
 
-@media (max-width: 420px) { 
+@media (max-width: 577px) { 
     .login-form {
         margin-top: 30%;
         margin-right: 10px;
